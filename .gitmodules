@@ -1,0 +1,9 @@
+[submodule "Packages/DeviceUtility"]
+	path = Packages/DeviceUtility
+	url = git@github.com:Vignesh-Thangamariappan/DeviceUtility.git
+[submodule "Packages/Stateful"]
+	path = Packages/Stateful
+	url = git@github.com:Vignesh-Thangamariappan/Stateful.git
+[submodule "Packages/CustomViewPresenter"]
+	path = Packages/CustomViewPresenter
+	url = git@github.com:Vignesh-Thangamariappan/CustomViewPresenter.git
