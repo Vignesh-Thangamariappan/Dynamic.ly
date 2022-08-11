@@ -16,6 +16,10 @@
 		2F0C7E0528A52A97007599E5 /* Dynamic_lyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C7E0428A52A97007599E5 /* Dynamic_lyTests.swift */; };
 		2F0C7E0F28A52A97007599E5 /* Dynamic_lyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C7E0E28A52A97007599E5 /* Dynamic_lyUITests.swift */; };
 		2F0C7E1128A52A97007599E5 /* Dynamic_lyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C7E1028A52A97007599E5 /* Dynamic_lyUITestsLaunchTests.swift */; };
+		2FB46A4D28A533780054D95F /* DeviceUtility in Resources */ = {isa = PBXBuildFile; fileRef = 2FB46A4A28A533770054D95F /* DeviceUtility */; };
+		2FB46A4F28A533780054D95F /* CustomViewPresenter in Resources */ = {isa = PBXBuildFile; fileRef = 2FB46A4C28A533780054D95F /* CustomViewPresenter */; };
+		2FB46A5228A533BC0054D95F /* CustomViewPresenter in Frameworks */ = {isa = PBXBuildFile; productRef = 2FB46A5128A533BC0054D95F /* CustomViewPresenter */; };
+		2FB46A5428A533BC0054D95F /* DeviceUtility in Frameworks */ = {isa = PBXBuildFile; productRef = 2FB46A5328A533BC0054D95F /* DeviceUtility */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,8 @@
 		2F0C7E0A28A52A97007599E5 /* Dynamic.lyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dynamic.lyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F0C7E0E28A52A97007599E5 /* Dynamic_lyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic_lyUITests.swift; sourceTree = "<group>"; };
 		2F0C7E1028A52A97007599E5 /* Dynamic_lyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic_lyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2FB46A4A28A533770054D95F /* DeviceUtility */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = DeviceUtility; sourceTree = "<group>"; };
+		2FB46A4C28A533780054D95F /* CustomViewPresenter */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CustomViewPresenter; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FB46A5228A533BC0054D95F /* CustomViewPresenter in Frameworks */,
+				2FB46A5428A533BC0054D95F /* DeviceUtility in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +92,7 @@
 				2F0C7E0328A52A97007599E5 /* Dynamic.lyTests */,
 				2F0C7E0D28A52A97007599E5 /* Dynamic.lyUITests */,
 				2F0C7DEB28A52A95007599E5 /* Products */,
+				2FB46A5028A533BC0054D95F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,8 +140,17 @@
 		2F0C7E1D28A530D7007599E5 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
+				2FB46A4C28A533780054D95F /* CustomViewPresenter */,
+				2FB46A4A28A533770054D95F /* DeviceUtility */,
 			);
 			path = Packages;
+			sourceTree = "<group>";
+		};
+		2FB46A5028A533BC0054D95F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +169,10 @@
 			dependencies = (
 			);
 			name = Dynamic.ly;
+			packageProductDependencies = (
+				2FB46A5128A533BC0054D95F /* CustomViewPresenter */,
+				2FB46A5328A533BC0054D95F /* DeviceUtility */,
+			);
 			productName = Dynamic.ly;
 			productReference = 2F0C7DEA28A52A95007599E5 /* Dynamic.ly.app */;
 			productType = "com.apple.product-type.application";
@@ -240,8 +262,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F0C7DFA28A52A97007599E5 /* LaunchScreen.storyboard in Resources */,
+				2FB46A4D28A533780054D95F /* DeviceUtility in Resources */,
 				2F0C7DF728A52A97007599E5 /* Assets.xcassets in Resources */,
 				2F0C7DF528A52A95007599E5 /* Main.storyboard in Resources */,
+				2FB46A4F28A533780054D95F /* CustomViewPresenter in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,6 +634,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2FB46A5128A533BC0054D95F /* CustomViewPresenter */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CustomViewPresenter;
+		};
+		2FB46A5328A533BC0054D95F /* DeviceUtility */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DeviceUtility;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2F0C7DE228A52A95007599E5 /* Project object */;
 }
