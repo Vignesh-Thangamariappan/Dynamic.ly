@@ -16,7 +16,6 @@
 		2F0C7E0528A52A97007599E5 /* Dynamic_lyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C7E0428A52A97007599E5 /* Dynamic_lyTests.swift */; };
 		2F0C7E0F28A52A97007599E5 /* Dynamic_lyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C7E0E28A52A97007599E5 /* Dynamic_lyUITests.swift */; };
 		2F0C7E1128A52A97007599E5 /* Dynamic_lyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C7E1028A52A97007599E5 /* Dynamic_lyUITestsLaunchTests.swift */; };
-		2F343F7F28CA3AB0008BDBB7 /* NavigationKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2F343F7E28CA3AB0008BDBB7 /* NavigationKit */; };
 		2FB0FBCD28BCE27300107437 /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = 2FB0FBCC28BCE27300107437 /* SwiftDate */; };
 		2FB46A4D28A533780054D95F /* DeviceUtility in Resources */ = {isa = PBXBuildFile; fileRef = 2FB46A4A28A533770054D95F /* DeviceUtility */; };
 		2FB46A4F28A533780054D95F /* CustomViewPresenter in Resources */ = {isa = PBXBuildFile; fileRef = 2FB46A4C28A533780054D95F /* CustomViewPresenter */; };
@@ -78,7 +77,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FB46A5228A533BC0054D95F /* CustomViewPresenter in Frameworks */,
-				2F343F7F28CA3AB0008BDBB7 /* NavigationKit in Frameworks */,
 				2FB46A5428A533BC0054D95F /* DeviceUtility in Frameworks */,
 				2FB0FBCD28BCE27300107437 /* SwiftDate in Frameworks */,
 			);
@@ -191,7 +189,6 @@
 				2FB46A5128A533BC0054D95F /* CustomViewPresenter */,
 				2FB46A5328A533BC0054D95F /* DeviceUtility */,
 				2FB0FBCC28BCE27300107437 /* SwiftDate */,
-				2F343F7E28CA3AB0008BDBB7 /* NavigationKit */,
 			);
 			productName = Dynamic.ly;
 			productReference = 2F0C7DEA28A52A95007599E5 /* Dynamic.ly.app */;
@@ -670,10 +667,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2F343F7E28CA3AB0008BDBB7 /* NavigationKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = NavigationKit;
-		};
 		2FB0FBCC28BCE27300107437 /* SwiftDate */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 2FB0FBCB28BCE27300107437 /* XCRemoteSwiftPackageReference "SwiftDate" */;
